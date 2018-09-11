@@ -1,3 +1,8 @@
+p.leadings {
+	font-weight:lighter;
+	color:rgb(255, 205, 194);
+}
+
 p {
 	font-family: sans-serif;
 	text-align: center;

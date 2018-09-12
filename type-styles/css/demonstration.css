@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+	font-size: 24pt;
+	line-height: 24pt;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 12pt;
+	line-height: 8pt;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	line-height: 12pt;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.sub_head {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.label {
+	font-family: sans-serif;
+	font-size:12pt;
+}

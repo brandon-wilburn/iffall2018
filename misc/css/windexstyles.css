@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0; /* removed padding to push conetent to edge */
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	/*Write a stack of text in the order to load if first ones aren't installed on a machine*/
+}
+
+/* Id is usually for single use (# for id)
+Class is for multiple use (. for class */
+
+#head_1 {
+color: red;
+font-weight: bold; /* normal, thin, 100, 200, 300, 500*/
+font-size: 72px; /* 16px, %, 2em (size of an m), 2rem */
+letter-spacing: 1em; /*rem would be relative to body*/
+text-transform: uppercase; /* lowercase, capitalize */
+font-family: 'Playfair Display', serif;
+}
+
+p {
+	line-height: 1;
+	text-align: center; 
+	text-decoration: none; /* strikethrough, underline*/
+}
+
+ /*looks for generic div tags, the child of paragraph and then the anchor tag*/
+
+div.generic p a{
+	color: rgba(0,50,0,.5);
+	text-decoration: none;
+}

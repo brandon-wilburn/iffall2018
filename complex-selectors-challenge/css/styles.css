@@ -38,3 +38,23 @@ section.cast li {
 	line-height: 100px
 }
 
+li.selected > a {
+	color: black;
+	font-weight: bold;
+}
+
+a > div {
+	font-size: .8rem;
+}
+
+a div:nth-child(2) { /* for some reason selecting the first child div doesn't work */
+	font-weight: bold;
+}
+
+a div:last-child {
+	font-style: italic;
+}
+
+ul li:last-child {
+	content: "*";
+}

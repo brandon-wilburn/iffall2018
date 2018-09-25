@@ -55,6 +55,13 @@ a div:last-child {
 	font-style: italic;
 }
 
-ul li:last-child {
+section.seasons ul > li:nth-child(7):after{
 	content: "*";
 }
+
+#game-of-thrones section.seasons:after {
+	content: "* In production";
+	color: #999;
+	font-size: .7rem;
+}
+

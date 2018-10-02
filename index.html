@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Images and Box Model</title>
+		
+		<meta charset="utf-8">
+		
+		<style>
+
+		img { 
+			border: 1px solid black;
+		}
+
+		p {
+			font-size: 60pt;
+			color: green;
+		}
+
+		section {
+/*			height: 400px;*/
+			background-color: green;
+			/*background-image: url('https://www.atlantatrails.com/wp-content/uploads/2017/04/georgia-waterfall-road-trip.jpg');
+			background-size: 200px 300px;
+			background-size: cover; /* contain */
+			/*background-repeat: no-repeat;
+			background-position: center;*/ /* center left */*/
+		}
+
+		body section:nth-child(3) {
+			height: 100px;
+			background-color: red;
+			clear: both;
+		}
+
+		span {
+			background-color: blue;
+			display: inline-block; /* block, inline block, etc. */
+			/*height: 100px;*/
+			padding: 5px;
+		}
+
+		div {
+/*			display: none;*/
+			background-color: grey;
+		}
+
+		header {
+			background-color: #cccccc;
+			padding: 100px;
+			border: 1px solid black;
+			margin: 100px;
+			width: 50%;
+			box-sizing: border-box; /*content box*/
+		}
+
+		div.itembox {
+			background-color: pink;
+			float: left;
+			/*display: inline-block;*/
+			height: 100px;
+			margin-right: 10px;
+			width: 100px;
+
+		}
+
+		div.clear {
+			clear:both;
+		}
+
+		</style>
+
+	</head>
+
+	<body>
+		<!-- <p> HERE IS THE TEXT! </p> --> <!-- Section to make sections, divs to create elements, paragraphs to hod blocks of text -->
+		<header>
+			Logo
+		</header>
+		
+		<section>
+			<div class="itembox">XX</div>
+			<div class="itembox">YY</div>
+			<div class="itembox">XX</div>
+			<div class="itembox">YY</div>
+			<div class="itembox">XX</div>
+			<div class="itembox">YY</div>
+			<div class="itembox">XX</div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis erat sodales mi sagittis sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sapien nulla, aliquam a lacinia ac, scelerisque consequat sem. Mauris et venenatis est, quis cursus nisi. In lobortis magna vel nulla malesuada tincidunt. 
+			Let's add some <strong>text</strong> to your <span>section</span> so <em>that</em> we have something <a href="https://youtube.com">to</a> style. <img src="">
+		</section>
+		<section>
+			Let's add some text to your <div>section</div> so that we have something to style 
+		</section>
+
+		<footer>
+			Copyright
+		</footer>
+
+	</body>
+</html>

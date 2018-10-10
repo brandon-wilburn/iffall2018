@@ -1,0 +1,491 @@
+a#btn_cocacola {
+	display: inline-block;
+	height: 50px;
+	font-family: 'Asap', sans-serif;
+	font-weight: thin;
+	margin: auto;
+	margin-top: 105px;
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	border: 2px solid rgb(255, 0, 0);
+	box-sizing: border-box;
+	border-radius: 25px;
+	padding: 10px 40px 0 40px;
+}
+
+a#btn_cocacola:hover {
+	color: white;
+	background-color: rgb(255, 0, 0);
+}
+
+a#btn_apple {
+	display: inline-block;
+	height: 50px;
+	font-family: 'Asap', sans-serif;
+	text-decoration: none;
+	margin-top: 105px;
+	font-size: 20px;
+	color: rgb(200,200,200);
+	box-sizing: border-box;
+	border-radius: 25px;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid rgb(200,200,200);
+
+}
+
+a#btn_apple:hover {
+	color: black;
+	border: 2px solid black;
+}
+
+a#btn_ibm {
+	display: inline-block;
+	height: 40px;
+	font-size: 30px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Rubik Mono One', sans-serif;
+	text-decoration: none;
+	margin-top: 100px;
+	box-sizing: box;
+	color: black;
+	letter-spacing: 5px;
+}
+
+a#btn_ibm:hover {
+	color: #fce33f;
+	background-color: black;
+	border-radius: 5px;
+}
+
+a#btn_nerf {
+	font-family: 'Keania One', cursive;
+	display: inline-block;
+	height: 50px;
+	font-size: 40px;
+	color: white;
+	margin: auto;
+	box-sizing: box;
+	text-decoration: none;
+	margin-top: 110px;
+	background-color: black;
+	padding: 0px 0px 0 10px;
+	letter-spacing: 10px;
+	border-radius: 10px;
+	border: 2px dashed black;
+}
+
+a#btn_nerf:hover {
+	color: orange;
+	border: 2px dashed orange;
+
+}
+
+a#btn_harley {
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 105px;
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	border: 4px solid black;
+	border-radius: 25px;
+	padding: 0px 20px 0px 20px;
+}
+
+a#btn_harley:hover {
+	color: #ff9102;
+	border: 4px solid #ff9102;
+}
+
+a#btn_mk {
+	display: inline-block;
+	background-color: white;
+	margin: auto;
+	margin-top: 115px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 21px;
+}
+
+a#btn_mk:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_mk img {
+	display: inline-block;
+	width: 200px; 
+	height: 21px;
+}
+
+a#btn_ideo {
+	dislay: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+a#btn_ideo img {
+	margin-top: 80px;
+	display: inline-block;
+	width: 200px;
+	height: 73.25px;
+	transition: transform .3s ease
+}
+
+a#btn_ideo img:hover {
+	transition: transform .3s ease;
+	transform: scale(1.2);
+}
+
+a#btn_sardella {
+	display: inline-block;
+	margin: auto;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Asap', sans-serif;
+	letter-spacing: 5px;
+	margin-top: 105px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	background-color: white;
+	transition: background-color 5s ease;
+	color: black;
+	transition: color 5s ease;
+	transition: background-color 5s ease;
+}
+
+a#btn_sardella:hover {
+	background-color: cyan;
+	color: #3e1cff;
+	transition: background-color 1s ease;
+	transitoin: color 1s ease;
+
+}
+
+a#btn_cgs {
+	display: inline-block;
+	font-family: serif;
+	font-size: 30px;
+	margin-top: 105px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: #3e1cff;
+	padding: 0px;
+}
+
+a#btn_cgs::after {
+	content: '';
+    display: inline-block;
+    margin-top: 0px;
+    width: 0;
+    height: 2px;
+    background: #3e1cff;
+    transition: width .3s;
+}
+
+a#btn_cgs:hover::after {
+	width: 100%;
+}
+
+a#btn_lyft {
+	display: inline;
+	margin: auto;
+	height: 100px;
+}
+
+a#btn_lyft img {
+	margin-top: 95px;
+	width: 100.9px;
+	height: 71.3px;
+}
+
+a#btn_lyft:hover {
+	background-color: purple;
+	border-radius: 10px;
+	transition: background-color 5s ease;
+}
+
+a#btn_sam {
+	display: inline;
+	height: 40px;
+}
+
+a#btn_sam img {
+	margin-top: 115px;
+	width: 189.5px;
+	height: 28.4px;
+	transition: transform .3s ease;
+}
+
+a#btn_sam img:hover {
+	transform: scale(.9);
+	transition: transform .3s ease;
+}
+
+a#btn_dime {
+	display: inline-block;
+	margin: auto;
+	transform: scale(6);
+	margin-top: 120px;
+	color: grey;
+	transition: color .3s ease;
+	text-decoration: none;
+}
+
+a#btn_dime:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa1e23+0,000000+100 */
+	color: #aa1e23; /* Old browsers */
+	color: -moz-linear-gradient(top, #aa1e23 0%, #000000 100%); /* FF3.6-15 */
+	color: -webkit-linear-gradient(top, #aa1e23 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	color: linear-gradient(to bottom, #aa1e23 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa1e23', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	transition: color .3s ease;
+}
+
+a#btn_cn {
+	margin-right: 200px;
+}
+
+a#btn_cn img {
+	display: inline-block;
+	transform: scale(.5);
+	padding: 20px 20px 20px 20px;
+	margin-left: -35px;
+	margin-top: 10px;
+}
+
+a#btn_cn img:hover {
+	background-color: yellow;
+	transition: background-color .5s ease;
+}
+
+a#btn_bissingers img {
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+a#btn_bissingers img:hover {
+	background-color: #332E1F;
+	border-radius: 50px;
+	transform: scale(1.1);
+	transition: transform 1s ease;
+	transition: background-color 1s ease;
+}
+
+a#btn_ofa img {
+	transform: scale(.25);
+	display: inline-block;
+	margin-left: -150px;
+	margin-top: 20px;
+}
+
+a#btn_ofa img:hover {
+  -webkit-filter: drop-shadow(8px 4px 0 cyan)
+                  drop-shadow(-4px -4px 0 cyan);
+  filter: drop-shadow(8px 4px 0 cyan) 
+          drop-shadow(-4px -4px 0 cyan);
+}
+
+a#btn_tonight {
+	display: inline-block;
+	font-size: 80px;
+	margin-top: 70px;
+	color: black;
+	transition: transform .5s ease;
+				color 5s ease;
+}
+
+a#btn_tonight:hover {
+	color: grey;
+	transform: rotate(-15deg);
+	transition: transform .5s ease;
+				color .5s ease;
+}
+
+a#btn_nike img{
+	display: inline-block;
+	transform: scale(.5);
+	margin-left: -65px;
+	margin-top: -65px;
+	opacity: .5;
+	transition: opacity .5s ease;
+}
+
+a#btn_nike img:hover {
+	opacity: 1;
+	transition: opacity 1s ease;
+}
+
+a#btn_garden {
+	display: inline-block;
+	font-size: 100px;
+	margin-top: 45px;
+	color: #C9D7B3;
+	transition: color 1s ease;
+}
+
+a#btn_garden:hover {
+	color: #577B2E;
+	transition: color 1s ease;
+}
+
+a#btn_hulk {
+	mergin: auto;
+	text-decoration: none;
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	color: #776a6a;
+	transition: color .5s ease;
+}
+
+a#btn_hulk p:nth-child(1) {
+	font-size:40px;
+	margin-bottom: 0px;
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+a#btn_hulk p:nth-child(2) {
+	font-size: 29px;
+    margin-bottom: 0px;
+    margin-top: -11px;
+    margin-left: 3px; 
+}
+
+a#btn_hulk:hover {
+	color: #c44c4c;
+	transition: color .5s ease;
+}
+
+a#btn_tesla img {
+	display: inline-block;
+	transform: scale(.10);
+	margin-left: -260px;
+    margin-top: -265px;
+    transition: transform 1s ease;
+}
+
+a#btn_tesla img:hover {
+	-webkit-filter: drop-shadow(16px 8px 0 black)
+    				drop-shadow(-8px -8px 0 black);
+	filter: drop-shadow(16px 8px 0 black) 
+    		drop-shadow(-8px -8px 0 black);
+    transform: scale(.15);
+    transition: transform 1s ease;
+}
+
+a#btn_color {
+	display: inline-block;
+	font-family: 'Keania One', cursive;
+	font-size: 30px;
+	margin-top: 95px;
+	text-decoration: none;
+	color:black;
+	padding: 10px 10px 10px 10px;
+}
+
+a#btn_color:hover {
+	background-color: black;
+	color: white;
+}
+
+a#btn_moo {
+	display: inline-block;
+	margin-top: 60px;
+	font-size: 80px;
+	color: grey;
+	transition: transform .3s ease;
+}
+
+a#btn_moo:hover {
+	transform: translateY(10px);
+	transition: transform .3s ease
+	color .3s ease;
+	color: #0C5D45;
+}
+
+a#btn_potter img {
+	transform: scale(.2);
+	margin-left: -390px;
+	margin-top: -30px;
+	transition: transform .2s ease;
+}
+
+a#btn_potter img:hover {
+	transform: scale(.25);
+	transition: transform .2s ease;
+}
+
+a#btn_fitbit img {
+	display: inline-block;
+	transform: scale(.1);
+	margin-left: -445px;
+	margin-top: -270px;
+	background-color: white;
+	border-radius: 100%;
+	transition: background-color .5s ease;
+}
+
+a#btn_fitbit img:hover {
+	background-color: #1e5468;
+	border-radius: 100%;
+	transition: background-color .5s ease;
+}
+
+a#btn_exploding {
+	display: inline-block;
+	font-size: 80px;
+	margin-top: 60px;
+	color: rgba(255, 100, 0, .5);
+	transition: color .5s ease;
+}
+
+a#btn_exploding:hover {
+	transform: rotate(-360deg);
+	transition: transform .5s ease;
+	color: rgba(200, 0, 0, .5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

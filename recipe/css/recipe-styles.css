@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	background-color: #fffee8;
+	color: #3f474f;
 }
 
 div {
@@ -18,11 +20,19 @@ h1 {
 	font-weight: bold;
 	display: inline-block;
 	margin-bottom: 10px;
+	color: #B18458;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+}
+
+#Header h2 {
+	font-size: 35px;
+    font-style: italic;
+    margin-top: -14px;
+    font-weight: 400;
 }
 
 section {
@@ -33,12 +43,12 @@ section {
 hr {
 	border-top: dotted 3px; 
 	width: 250px;
-	color: grey;
+	color: #3f474f;
 }
 
 h2 {
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 .Sub h2 {
@@ -64,7 +74,8 @@ h2 {
 }
 
 #Header h1 {
-	margin-top: 10px;
+	margin-top: 50px;
+	font-size: 40px;
 }
 
 #Header img {
@@ -72,7 +83,8 @@ h2 {
 	height: 193.369px;
 }
 
-#Shopping {
+#Shopping p {
+	text-align: left;
 }
 
 #SteoOne {

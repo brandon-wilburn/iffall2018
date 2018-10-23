@@ -52,6 +52,15 @@ h2 {
 	font-weight: lighter;
 }
 
+#Header p > a {
+	text-decoration: none;
+	color: #B18458;
+}
+
+#Header p {
+	text-align: center;
+}
+
 .Sub h2 {
 	margin: 5px;
 }

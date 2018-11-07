@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+	height: 100%;
+	background-image: url(https://expertbeacon.com/sites/default/files/should_you_use_student_loans_to_pay_for_your_college_education.jpg);
+	margin:0px;
+	padding: 1em;
+	position: relative;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index: 100;
+}
+
+#text {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 15%;
+	height: 300px;
+	z-index: 10;
+	left: 15%;
+	top: 43%;
+	height: 100%;
+	text-align: left;
+}
+
+#person {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 15%;
+	height: 300px;
+	z-index: 10;
+	right: 8%;
+	top: 55%;
+	height: 100%;
+	text-align: left;	
+}
+
+#text p{
+	color: white;
+	line-height: 27px;
+	font-size: 24px;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+#person h1{
+	color: white;
+	line-height: 27px;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: italic;
+}
+
+@media (max-width: 700px) {
+	#text {
+		width: 29%;
+	    left: 6%;
+	    top: 5%
+	}
+
+	#person {
+		width: 29%;
+		right: 6%;
+		top: 10%;
+		text-align: right;
+	}
+}

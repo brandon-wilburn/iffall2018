@@ -1,0 +1,64 @@
+html {
+	background-color: #2F2744;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+}
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+}
+
+.content {
+	color: white;
+	font-family: sans-serif;
+	width: 80%;
+}
+
+#homescreen {
+	margin: 0;
+	padding: 0;
+	background-image: url("../assets/vp_homescreen.png");
+	background-repeat: no-repeat;
+	background-size:cover; 
+	position: relative;
+	min-height: 1055px;
+	min-width: 100%;
+}
+
+#logo {
+    position: relative;
+    top: 463px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 40%;
+}
+
+#sidebarcontents {
+	width: 160.03px;
+	height: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 160.03px;
+	z-index: 100;
+}
+
+.header {
+}
+
+#mainbody {
+    position: absolute;
+    right: 0px;
+    width: 75%;
+    padding: 10px;
+}
+
+#origins {
+}
+

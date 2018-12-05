@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jquery Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+
+	<script>
+		$( document ).ready(function() {				
+			$(".menu_button").click(function(){
+					$(".menu").toggleClass("open");
+					$(".menu_button").toggleClass("button_open");
+			});
+
+		});
+	</script>
+
+		<style>
+
+			.menu_button {
+				position: fixed;
+				top: 10px;
+				left: 10px;
+				font-size: 30px;
+				z-index: 10;
+				transition: all 1s;
+			}
+
+			.menu {
+				background-color: #ccc;
+				width: 200px;
+				padding-top:33px;
+				position: fixed;
+				top: 0;
+				left: -200px;
+				transition: all 1s;
+			}
+
+			.menu_button.button_open {
+				left: 150px;
+			}
+
+			.menu.open {
+				left: 0;
+			}
+
+			.menu a {
+				display: block;
+				padding: 1em 2em;
+				border-bottom: 1px solid #999;
+		}
+		</style>
+	<body>
+		<div class="menu_button">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+			<div class="menu">
+				<a herf="index.html">Home</a>
+				<a href="google.com">Google</a>
+				<a href="youtube.com">Youtube</a>
+		</div>
+	</body>
+<html>

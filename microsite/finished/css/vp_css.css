@@ -1,0 +1,114 @@
+html {
+	background-color: #2F2744;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+}
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+	width: 100%;
+}
+p {
+	font-family: 'PT Mono', monospace;
+	color: white;
+	width: 80%;
+	line-height: 23px;
+	font-size: 15px;
+}
+
+h1 {
+	font-family: 'PT Mono', monospace;
+	color: white;
+	width: 80%;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+hr {
+	position: relative;
+	width: 80%;
+}
+
+section {
+	margin-bottom: 100px;
+}
+.emp {
+	color: #FF2E8A;
+}
+
+.introtxt {
+	font-size: 25px;
+	line-height: 33px;
+}
+.header {
+	width: 80%;
+}
+.content {
+	font-family: 'PT Mono', monospace;
+	color: white;
+	width: 80%;
+	line-height: 23px;
+	font-size: 15px;
+}
+
+#homescreen {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/vp_homescreen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 1055px;
+    min-width: 100%;
+    background-position: center top;
+}
+
+#homescreen img {
+    position: relative;
+    top: 438px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+#sidebarcontents {
+	width: 160.03px;
+	height: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	top: 105px;
+	display: block;
+	height: 100vh;
+	width: 160.03px;
+	z-index: 100;
+}
+
+.header {
+	max-width: 100%;
+}
+
+#mainbody {
+    position: absolute;
+    padding: 20px;
+}
+
+#right {
+	margin-left: 20%;
+    position: relative;
+    width: 75%;
+    /* left: 25%; */
+    margin-right: 20%;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	height: 20px;
+	color: white;
+}

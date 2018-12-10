@@ -368,8 +368,8 @@ a#btn_hulk:hover {
 a#btn_tesla img {
 	display: inline-block;
 	transform: scale(.10);
-	margin-left: -260px;
-    margin-top: -265px;
+	margin-left: -130px;
+    margin-top: -130px;
     transition: transform 1s ease;
 }
 
